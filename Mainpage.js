@@ -4,6 +4,7 @@ class VeiwPage {
       this.city;
       this.defaultCity = "London";     
     }
+    //for ui
     populateUI(data) {
       var Name=data.name;
       var Temp=data.main.temp;
